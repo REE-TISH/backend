@@ -59,7 +59,7 @@ WSGI_APPLICATION = 'backend.wsgi.application'
 
 # CORS
 CORS_ALLOWED_ORIGINS = [
-    'https://testing-react-henna.vercel.ap',
+    'https://testing-react-henna.vercel.app',
 ]
 
 # DATABASE (Render will inject DATABASE_URL)
