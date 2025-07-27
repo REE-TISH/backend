@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: django-app
+    name: my-django-app
     env: python
     buildCommand: pip install -r requirements.txt
     startCommand: gunicorn backend.wsgi:application
@@ -13,7 +13,6 @@ services:
         fromDatabase:
           name: django-db
           property: connectionString
+
 databases:
   - name: django-db
-    databaseName: mydb
-    user: django
