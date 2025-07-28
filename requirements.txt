@@ -5,3 +5,4 @@ dj-database-url
 python-decouple 
 whitenoise
 gunicorn==21.2.0
+mysqlclient

@@ -9,10 +9,13 @@ services:
         value: False
       - key: SECRET_KEY
         generateValue: true
-      - key: DATABASE_URL
-        fromDatabase:
-          name: django-db
-          property: connectionString
-
-databases:
-  - name: django-db
+      - key: DB_NAME
+        value: test
+      - key: DB_USER
+        value: 2EPFviADtLK2pJd.root
+      - key: DB_PASSWORD
+        value: ya1tbuHz71MqzPT7
+      - key: DB_HOST
+        value: gateway01.ap-southeast-1.prod.aws.tidbcloud.com
+      - key: DB_PORT
+        value: "4000"
