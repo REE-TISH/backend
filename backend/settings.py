@@ -58,9 +58,7 @@ TEMPLATES = [
 WSGI_APPLICATION = 'backend.wsgi.application'
 
 # CORS
-CORS_ALLOWED_ORIGINS = [
-    'https://testing-react-git-main-ree-tishs-projects.vercel.app',
-]
+CORS_ALLOW_ALL_ORIGINS = True
 
 # DATABASE (Render will inject DATABASE_URL)
 
