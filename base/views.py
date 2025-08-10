@@ -9,7 +9,7 @@ from .serializers import ProfileSerializer
 @api_view(['GET'])
 def HomePageData(request):
     return Response({
-        'avatar':'https://i.pinimg.com/736x/3e/ce/29/3ece2976d357f517d7da207b2bc0077e.jpg',
+        'avatar':'https://www.comboinfinito.com.br/principal/wp-content/uploads/2025/06/resident-evil-1.jpg',
         'User':'Ashley',
         'body':'Play Resident evil requem'
     })
