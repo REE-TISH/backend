@@ -10,8 +10,8 @@ from .serializers import ProfileSerializer
 def HomePageData(request):
     return Response({
         'avatar':'https://www.comboinfinito.com.br/principal/wp-content/uploads/2025/06/resident-evil-1.jpg',
-        'User':'Ashley',
-        'body':'Play Resident evil requem'
+        'User':'Grace Ashcroft',
+        'body':'Play Resident evil requiem'
     })
 
 class CreateProfileView(generics.CreateAPIView):
